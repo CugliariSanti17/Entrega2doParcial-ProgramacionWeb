@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    font-family: "Lora", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.842)), url("../assets/img/bannerCars.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.nav{    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+}
+
+.logoContainer img{
+    width: 170px;
+    height: 100px;
+    transition: 1s all;
+}
+
+.logoContainer img:hover{
+    width: 170px;
+    height: 100px;
+    transform: scale(1.1);
+}
+
+.headerLinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.headerLinks a {
+   margin: 20px;
+   list-style: none;
+   text-decoration: none;
+   color: white;
+   transition: 1.5s all;
+}
+
+.headerLinks a:hover {
+    transform: scale(1.2);
+   text-decoration: underline;
+   color: red;
+}
+
+.imagenFondo{
+    text-align: center;
+    color: white;
+    margin-top: 150px ;
+}
+
+.imagenFondoLink{
+    text-decoration: none;
+    padding: 20px;
+    background-color: red;
+    color:white;
+    text-align: center;
+    transition: 1s all;
+}
+
+.imagenFondoLink:hover{
+    outline: auto yellow;
+    background-color: rgb(148, 16, 16);
+}
+
+.imagenFondoTitle{
+    margin: 30px;
+    font-size: 3.5rem;
+    transition: 1.5s all;
+}
+
+.imagenFondoTitle:hover{
+    color: red;
+}
+
+.imagenFondoDescription{
+    margin-bottom: 50px;
+}
+
+.sinopsisContainer{
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: rgb(31, 30, 30);
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.sinopsisContainer h2{
+    margin-top: 15px;
+    font-size: 2rem;
+    color: red;
+}
+
+.sinopsisContainer p{
+    margin: 20px 0;
+    font-size: 1.1rem;
+}
+
+.infoContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 40px 0;
+}
+
+.sectionActores{
+    border: 2px solid red;
+    width: 45%;
+    height: 250px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.842)), url("../assets/img/bannerCardIndex.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    color: white;
+    text-align: center;
+}
+
+.sectionActoresTitle{
+    margin-top: 30px;
+    margin-bottom: 35px;
+    font-size: 1.8rem;
+}
+
+.sectionActoresDescription{
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+}
+
+.sectionActoresLink{
+    width: 100px;
+    font-size: 1.1rem;
+    display: inline-block;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    transition: 1s all;
+}
+
+.sectionActoresLink:hover{
+    background-color: rgb(148, 16, 16);
+    outline: auto yellow;
+}
+
+.sectionCuriosidades{
+    border: 2px solid red;
+    width: 45%;
+    height: 250px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.842)), url("../assets/img/bannerCardIndex2.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+.sectionCuriosidadesTitle{
+    margin-top: 30px;
+    margin-bottom: 35px;
+    font-size: 1.8rem;
+}
+
+.sectionCuriosidadesDescription{
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+}
+
+.sectionCuriosidadesLink{
+    font-size: 1.1rem;
+    align-items: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;
+    padding: 10px 10px;
+    background-color: red;
+    color: white;
+    transition: 1s all;
+}
+
+.sectionCuriosidadesLink:hover{
+    background-color: rgb(148, 16, 16);
+    outline: auto yellow;
+}
+
+
+.sectionTrailer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(31, 30, 30);
+    height: 90vh;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.videoContainer{
+    width: 50%;
+    height: 90%;
+    margin-right: 20px;
+}
+
+.textVideoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 50%;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.textVideoContainer h4{
+    font-size: 2rem;
+    color: white;
+}
+
+.textVideoContainer p{
+    font-size: 1.1rem;
+    margin: 10px 0;
+    color: white;
+}
+
+.textVideoContainer p span{
+    color: red;
+}
+
+.videoContainer iframe{
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    background-color: rgb(22, 22, 22);
+    color: white;
+    padding: 50px 20px 20px 20px;
+}
+
+footer h3 {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.footerSections{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sectionInfoContacto p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.sectionInfoContacto i {
+    margin-right: 10px;
+    color: red;
+    font-size: 1.1rem;
+}
+
+.paginasContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.paginasContainer a {
+    text-decoration: none;
+    color: rgb(186, 186, 186);
+    margin: 5px 0;
+    transition: 0.3s;
+}
+
+.paginasContainer a:hover {
+    color: white;
+    transform: translateX(5px);
+}
+
+.sectionRedesSociales a {
+    color: white;
+    font-size: 20px;
+    margin-right: 15px;
+    transition: 1s;
+}
+
+.sectionRedesSociales i{
+    transition: 1s all;
+}
+
+.sectionRedesSociales i:hover {
+    color: yellow;
+    transform: scale(1.2);
+}
+
+footer hr {
+    margin: 30px 0;
+    border: none;
+    border-top: 1px solid rgb(45, 45, 45);
+}
+
+.derechosContainer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: rgb(162, 162, 162);
+}
+
+.derechosContainer:hover {
+   color: yellow ;
+}
+

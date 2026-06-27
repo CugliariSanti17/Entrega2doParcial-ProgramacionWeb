@@ -52,8 +52,8 @@ header{
 
 .headerLinks a:hover {
     transform: scale(1.2);
-   text-decoration: underline;
-   color: red;
+    text-decoration: underline;
+    color: red;
 }
 
 .imagenFondo{

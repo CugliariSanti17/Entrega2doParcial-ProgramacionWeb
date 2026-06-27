@@ -26,6 +26,11 @@ header{
 .logoContainer img{
     width: 170px;
     height: 100px;
+    transition: 1s all;
+}
+
+.logoContainer img:hover{
+    transform: scale(1.1);
 }
 
 .headerLinks{

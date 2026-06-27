@@ -30,8 +30,6 @@ header{
 }
 
 .logoContainer img:hover{
-    width: 170px;
-    height: 100px;
     transform: scale(1.1);
 }
 

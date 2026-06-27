@@ -112,7 +112,7 @@ header{
 .acordeonTitle:hover {
     background-color: rgb(255, 78, 78);
     border-radius: 15px;
-    border: 5px solid yellow;
+    outline: 5px solid yellow;
 }
 
 .acordeonTitle i {

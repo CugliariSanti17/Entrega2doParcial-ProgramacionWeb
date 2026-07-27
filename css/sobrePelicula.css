@@ -213,3 +213,109 @@ footer hr {
 .derechosContainer:hover {
    color: yellow ;
 }
+
+@media (350px < width < 676px){
+    header{
+        height: 80vh;
+        width: 100%;
+}
+
+.logoContainer img{
+    width: 120px;
+    height: 80px;
+}
+
+.headerLinks{
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background-color: rgba(20,20,20,.95);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 0;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.headerLinks a {
+   margin: 20px 0;
+}
+
+#menu-toggle:checked ~ .headerLinks{
+    max-height: 400px;
+}
+
+.hamburguesa{
+    display: block;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+/*Contenido Main*/
+
+.acordeonContainer{
+    width: 100%;
+}
+
+.acordeonItems{
+    margin: 20px 5px;
+}
+
+.footerSections{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.sectionInfoContacto h4{
+    text-align: center;
+}
+
+.sectionInfoContacto p {
+    margin: 10px 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+.sectionInfoContacto i {
+    margin-right: 10px;
+    color: red;
+    font-size: 1.1rem;
+}
+
+.paginasContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.paginasContainer a {
+    text-decoration: none;
+    color: rgb(186, 186, 186);
+    margin: 5px 0;
+    transition: 0.3s;
+}
+
+.paginasContainer a:hover {
+    color: white;
+    transform: translateX(5px);
+}
+
+.sectionRedesSociales{
+    text-align: center;
+}
+
+.sectionRedesSociales a {
+    color: white;
+    font-size: 20px;
+    margin-right: 15px;
+    transition: 1s;
+}
+}

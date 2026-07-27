@@ -88,6 +88,14 @@ header{
     margin-bottom: 50px;
 }
 
+#menu-toggle{
+    display: none;
+}
+
+.hamburguesa{
+    display: none;
+}
+
 .acordeonContainer{
     max-width: 600px;
     border-radius: 18px;
@@ -215,9 +223,9 @@ footer hr {
 }
 
 @media (350px < width < 676px){
-    header{
-        height: 80vh;
-        width: 100%;
+header{
+    height: 80vh;
+    width: 100%;
 }
 
 .logoContainer img{

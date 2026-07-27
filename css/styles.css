@@ -457,6 +457,7 @@ footer hr {
 
 .sectionActores{
     width: 100%;
+    height: auto;
 }
 
 .sectionActoresTitle{
@@ -480,6 +481,7 @@ footer hr {
     color: white;
     text-decoration: none;
     transition: 1s all;
+    margin-bottom: 30px;
 }
 
 .sectionActoresLink:hover{
@@ -545,19 +547,16 @@ footer hr {
     align-items: center;
     gap: 10px;
     width: 100%;
-    margin: 20px 10px;
+    margin: 20px 15px;
     text-align: center;
 }
-
 
 .formSection{
     margin: 50px 5px;
 }
 
-
-.formContainer label{
-    font-weight: bold;
-    margin-top: 10px;
+.formInput{
+    width: 80%;
 }
 
 .footerSections{
@@ -565,15 +564,16 @@ footer hr {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 40px;
 }
 
 .sectionInfoContacto h4{
     text-align: center;
 }
+
 .sectionInfoContacto p {
     margin: 10px 0;
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
 }
 
@@ -602,6 +602,10 @@ footer hr {
     transform: translateX(5px);
 }
 
+.sectionRedesSociales{
+    text-align: center;
+}
+
 .sectionRedesSociales a {
     color: white;
     font-size: 20px;
@@ -609,28 +613,5 @@ footer hr {
     transition: 1s;
 }
 
-.sectionRedesSociales i{
-    transition: 1s all;
-}
 
-.sectionRedesSociales i:hover {
-    color: yellow;
-    transform: scale(1.2);
-}
-
-footer hr {
-    margin: 30px 0;
-    border: none;
-    border-top: 1px solid rgb(45, 45, 45);
-}
-
-.derechosContainer {
-    text-align: center;
-    font-size: 0.9rem;
-    color: rgb(162, 162, 162);
-}
-
-.derechosContainer:hover {
-   color: yellow ;
-}
 }

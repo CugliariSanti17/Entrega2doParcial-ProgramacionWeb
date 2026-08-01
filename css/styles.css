@@ -484,11 +484,6 @@ footer hr {
     margin-bottom: 30px;
 }
 
-.sectionActoresLink:hover{
-    background-color: rgb(148, 16, 16);
-    outline: auto yellow;
-}
-
 .sectionCuriosidades{
     border: 2px solid red;
     width: 100%;
@@ -546,7 +541,7 @@ footer hr {
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    width: 100%;
+    width: 90%;
     margin: 20px 15px;
     text-align: center;
 }
@@ -597,11 +592,6 @@ footer hr {
     transition: 0.3s;
 }
 
-.paginasContainer a:hover {
-    color: white;
-    transform: translateX(5px);
-}
-
 .sectionRedesSociales{
     text-align: center;
 }
@@ -612,6 +602,158 @@ footer hr {
     margin-right: 15px;
     transition: 1s;
 }
+}
 
+@media (677px < width < 1024px){
 
+    .logoContainer img{
+        width: 150px;
+        height: 90px;
+    }
+
+    .headerLinks a {
+        margin: 15px;
+    }
+
+    .infoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 40px 5px;
+}
+
+.sectionActores{
+    width: 90%;
+    height: auto;
+}
+
+.sectionActoresTitle{
+    margin-top: 30px;
+    margin-bottom: 35px;
+    font-size: 1.8rem;
+}
+
+.sectionActoresDescription{
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+}
+
+.sectionActoresLink{
+    width: 100px;
+    font-size: 1.1rem;
+    display: inline-block;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    transition: 1s all;
+    margin-bottom: 30px;
+}
+
+.sectionCuriosidades{
+    border: 2px solid red;
+    width: 90%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.842)), url("../assets/img/bannerCardIndex2.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+.sectionCuriosidadesTitle{
+    margin-top: 30px;
+    margin-bottom: 35px;
+    font-size: 1.8rem;
+}
+
+.sectionCuriosidadesDescription{
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+}
+
+.sectionCuriosidadesLink{
+    font-size: 1.1rem;
+    align-items: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;
+    padding: 10px 10px;
+    background-color: red;
+    color: white;
+    transition: 1s all;
+}
+
+.sectionTrailer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(31, 30, 30);
+    height: 100vh;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.videoContainer{
+    width: 90%;
+    height: 90%;
+    margin: 20px 10px;
+}
+
+.textVideoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 90%;
+    margin: 20px 15px;
+    text-align: center;
+}
+
+.formInput{
+    width: 80%;
+}
+
+.footerSections{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.sectionInfoContacto h4{
+    text-align: center;
+}
+
+.sectionInfoContacto p {
+    margin: 10px 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+.sectionInfoContacto i {
+    margin-right: 10px;
+    color: red;
+    font-size: 1.1rem;
+}
+
+.paginasContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.paginasContainer a {
+    text-decoration: none;
+    color: rgb(186, 186, 186);
+    margin: 5px 0;
+    transition: 0.3s;
+}
 }

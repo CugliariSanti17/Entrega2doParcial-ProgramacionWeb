@@ -143,7 +143,6 @@ header {
     transition: all 0.5s;
 }
 
-
 footer {
     background-color: rgb(22, 22, 22);
     color: white;
@@ -223,7 +222,7 @@ footer hr {
 }
 
 /*VISTA TABLET */
-@media (677px < width < 1024px) {
+@media (677px <= width <= 1024px) {
 
     /*HEADER TABLET*/
     .logoContainer img {
@@ -255,7 +254,7 @@ footer hr {
 
 /*VISTA MOBILE*/
 
-@media (width <=676px) {
+@media (350px <= width <=676px) {
 
     /*Header Mobile*/
     header {

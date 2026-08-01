@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
-*{
+* {
     font-family: "Lora", serif;
     margin: 0;
     padding: 0;
@@ -8,40 +8,40 @@
     scroll-behavior: smooth;
 }
 
-header{
+header {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.842)), url("../assets/img/bannerCars.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
 }
 
-.nav{    
+.nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 100%; 
+    width: 100%;
 }
 
-.logoContainer img{
+.logoContainer img {
     width: 170px;
     height: 100px;
     transition: 1s all;
 }
 
-.logoContainer img:hover{
+.logoContainer img:hover {
     transform: scale(1.1);
 }
 
-#menu-toggle{
+#menu-toggle {
     display: none;
 }
 
-.hamburguesa{
+.hamburguesa {
     display: none;
 }
 
-.headerLinks{
+.headerLinks {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -49,11 +49,11 @@ header{
 }
 
 .headerLinks a {
-   margin: 20px;
-   list-style: none;
-   text-decoration: none;
-   color: white;
-   transition: 1.5s all;
+    margin: 20px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    transition: 1.5s all;
 }
 
 .headerLinks a:hover {
@@ -62,41 +62,41 @@ header{
     color: red;
 }
 
-.imagenFondo{
+.imagenFondo {
     text-align: center;
     color: white;
-    margin-top: 150px ;
+    margin-top: 150px;
 }
 
-.imagenFondoLink{
+.imagenFondoLink {
     text-decoration: none;
     padding: 20px;
     background-color: red;
-    color:white;
+    color: white;
     text-align: center;
     transition: 1s all;
 }
 
-.imagenFondoLink:hover{
+.imagenFondoLink:hover {
     outline: auto yellow;
     background-color: rgb(148, 16, 16);
 }
 
-.imagenFondoTitle{
+.imagenFondoTitle {
     margin: 30px;
     font-size: 3.5rem;
     transition: 1.5s all;
 }
 
-.imagenFondoTitle:hover{
+.imagenFondoTitle:hover {
     color: red;
 }
 
-.imagenFondoDescription{
+.imagenFondoDescription {
     margin-bottom: 50px;
 }
 
-.sinopsisContainer{
+.sinopsisContainer {
     width: 100%;
     text-align: center;
     color: white;
@@ -105,18 +105,18 @@ header{
     padding: 20px;
 }
 
-.sinopsisContainer h2{
+.sinopsisContainer h2 {
     margin-top: 15px;
     font-size: 2rem;
     color: red;
 }
 
-.sinopsisContainer p{
+.sinopsisContainer p {
     margin: 20px 0;
     font-size: 1.1rem;
 }
 
-.infoContainer{
+.infoContainer {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -125,7 +125,7 @@ header{
     margin: 40px 0;
 }
 
-.sectionActores{
+.sectionActores {
     border: 2px solid red;
     width: 45%;
     height: 250px;
@@ -137,18 +137,18 @@ header{
     text-align: center;
 }
 
-.sectionActoresTitle{
+.sectionActoresTitle {
     margin-top: 30px;
     margin-bottom: 35px;
     font-size: 1.8rem;
 }
 
-.sectionActoresDescription{
+.sectionActoresDescription {
     margin-bottom: 30px;
     font-size: 1.1rem;
 }
 
-.sectionActoresLink{
+.sectionActoresLink {
     width: 100px;
     font-size: 1.1rem;
     display: inline-block;
@@ -160,12 +160,12 @@ header{
     transition: 1s all;
 }
 
-.sectionActoresLink:hover{
+.sectionActoresLink:hover {
     background-color: rgb(148, 16, 16);
     outline: auto yellow;
 }
 
-.sectionCuriosidades{
+.sectionCuriosidades {
     border: 2px solid red;
     width: 45%;
     height: 250px;
@@ -177,18 +177,18 @@ header{
     text-align: center;
 }
 
-.sectionCuriosidadesTitle{
+.sectionCuriosidadesTitle {
     margin-top: 30px;
     margin-bottom: 35px;
     font-size: 1.8rem;
 }
 
-.sectionCuriosidadesDescription{
+.sectionCuriosidadesDescription {
     margin-bottom: 30px;
     font-size: 1.1rem;
 }
 
-.sectionCuriosidadesLink{
+.sectionCuriosidadesLink {
     font-size: 1.1rem;
     align-items: center;
     text-decoration: none;
@@ -200,13 +200,13 @@ header{
     transition: 1s all;
 }
 
-.sectionCuriosidadesLink:hover{
+.sectionCuriosidadesLink:hover {
     background-color: rgb(148, 16, 16);
     outline: auto yellow;
 }
 
 
-.sectionTrailer{
+.sectionTrailer {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -218,13 +218,13 @@ header{
     margin: 20px 0;
 }
 
-.videoContainer{
+.videoContainer {
     width: 50%;
     height: 90%;
     margin-right: 20px;
 }
 
-.textVideoContainer{
+.textVideoContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -234,27 +234,27 @@ header{
     text-align: center;
 }
 
-.textVideoContainer h4{
+.textVideoContainer h4 {
     font-size: 2rem;
     color: white;
 }
 
-.textVideoContainer p{
+.textVideoContainer p {
     font-size: 1.1rem;
     margin: 10px 0;
     color: white;
 }
 
-.textVideoContainer p span{
+.textVideoContainer p span {
     color: red;
 }
 
-.videoContainer iframe{
+.videoContainer iframe {
     width: 100%;
     height: 100%;
 }
 
-.formSection{
+.formSection {
     background-color: rgb(22, 22, 22);
     color: white;
     max-width: 700px;
@@ -264,19 +264,19 @@ header{
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
 }
 
-.formTitle{
+.formTitle {
     font-size: 2rem;
     text-align: center;
     margin: 10px 0;
 }
 
-.formDescription{
+.formDescription {
     text-align: center;
     color: rgb(203, 203, 203);
     margin-bottom: 30px;
 }
 
-.formContainer{
+.formContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -284,12 +284,12 @@ header{
     gap: 20px
 }
 
-.formContainer label{
+.formContainer label {
     font-weight: bold;
     margin-top: 10px;
 }
 
-.formInput{
+.formInput {
     padding: 12px;
     border: 2px solid rgb(51, 51, 51);
     border-radius: 15px;
@@ -299,13 +299,13 @@ header{
     width: 50%;
 }
 
-.formInput:focus{
+.formInput:focus {
     outline: none;
     border-color: red;
     box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
 }
 
-.formSubmit{
+.formSubmit {
     margin: 25px 0;
     padding: 15px;
     border-radius: 10px;
@@ -315,7 +315,7 @@ header{
     transition: 0.5s all;
 }
 
-.formSubmit:hover{
+.formSubmit:hover {
     background-color: rgb(148, 16, 16);
     transform: scale(0.9)
 }
@@ -331,7 +331,7 @@ footer h3 {
     font-size: 1.2rem;
 }
 
-.footerSections{
+.footerSections {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -373,7 +373,7 @@ footer h3 {
     transition: 1s;
 }
 
-.sectionRedesSociales i{
+.sectionRedesSociales i {
     transition: 1s all;
 }
 
@@ -395,365 +395,185 @@ footer hr {
 }
 
 .derechosContainer:hover {
-   color: yellow ;
+    color: yellow;
+}
+
+/*VISTA TABLET*/
+
+@media (677px <= width <= 1024px){
+
+    .logoContainer img{
+        width:150px;
+        height:90px;
+    }
+
+    .headerLinks a{
+        margin:15px;
+    }
+
+    .infoContainer{
+        flex-direction:column;
+        margin:40px 5px;
+    }
+
+    .sectionActores,
+    .sectionCuriosidades{
+        width:90%;
+        height:auto;
+    }
+
+    .sectionActoresLink, .sectionCuriosidadesLink{
+        margin-bottom:30px;
+    }
+
+    .sectionTrailer{
+        flex-direction:column;
+        height:100vh;
+    }
+
+    .videoContainer{
+        width:90%;
+        margin:20px 10px;
+    }
+
+    .textVideoContainer{
+        width:90%;
+        margin:20px 15px;
+    }
+
+    .formInput{
+        width:80%;
+    }
+
+    .footerSections{
+        flex-direction:column;
+        gap:40px;
+    }
+
+    .sectionInfoContacto h4,
+    .sectionInfoContacto p,
+    .paginasContainer,
+    .sectionRedesSociales{
+        text-align:center;
+    }
+
+    .paginasContainer{
+        gap:10px;
+    }
 }
 
 /*VISTA MOBILE*/
 
-@media (350px < width < 676px){
+@media (width <= 676px){
+
     header{
-    height: 80vh;
-    width: 100%;
-}
-
-
-.logoContainer img{
-    width: 120px;
-    height: 80px;
-}
-
-.headerLinks{
-    position: absolute;
-    top: 80px;
-    left: 0;
-    width: 100%;
-    background-color: rgba(20,20,20,.95);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-height: 0;
-    overflow: hidden;
-    transition: .5s;
-}
-
-.headerLinks a {
-   margin: 20px 0;
-}
-
-#menu-toggle:checked ~ .headerLinks{
-    max-height: 400px;
-}
-
-.hamburguesa{
-    display: block;
-    color: white;
-    font-size: 2rem;
-    cursor: pointer;
-    margin-right: 20px;
-}
-
-.sinopsisContainer p{
-    font-size: 1rem;
-}
-
-.infoContainer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    margin: 40px 5px;
-}
-
-.sectionActores{
-    width: 100%;
-    height: auto;
-}
-
-.sectionActoresTitle{
-    margin-top: 30px;
-    margin-bottom: 35px;
-    font-size: 1.8rem;
-}
-
-.sectionActoresDescription{
-    margin-bottom: 30px;
-    font-size: 1.1rem;
-}
-
-.sectionActoresLink{
-    width: 100px;
-    font-size: 1.1rem;
-    display: inline-block;
-    align-items: center;
-    padding: 10px 10px;
-    background-color: red;
-    color: white;
-    text-decoration: none;
-    transition: 1s all;
-    margin-bottom: 30px;
-}
-
-.sectionCuriosidades{
-    border: 2px solid red;
-    width: 100%;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.842)), url("../assets/img/bannerCardIndex2.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    color: white;
-    text-align: center;
-}
-
-.sectionCuriosidadesTitle{
-    margin-top: 30px;
-    margin-bottom: 35px;
-    font-size: 1.8rem;
-}
-
-.sectionCuriosidadesDescription{
-    margin-bottom: 30px;
-    font-size: 1.1rem;
-}
-
-.sectionCuriosidadesLink{
-    font-size: 1.1rem;
-    align-items: center;
-    text-decoration: none;
-    display: inline-block;
-    width: 100px;
-    padding: 10px 10px;
-    background-color: red;
-    color: white;
-    transition: 1s all;
-}
-
-.sectionTrailer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    background-color: rgb(31, 30, 30);
-    height: 90vh;
-    width: 100%;
-    margin: 20px 0;
-}
-
-.videoContainer{
-    width: 100%;
-    height: 90%;
-    margin: 20px 10px;
-}
-
-.textVideoContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    width: 90%;
-    margin: 20px 15px;
-    text-align: center;
-}
-
-.formSection{
-    margin: 50px 5px;
-}
-
-.formInput{
-    width: 80%;
-}
-
-.footerSections{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-}
-
-.sectionInfoContacto h4{
-    text-align: center;
-}
-
-.sectionInfoContacto p {
-    margin: 10px 0;
-    font-size: 14px;
-    text-align: center;
-}
-
-.sectionInfoContacto i {
-    margin-right: 10px;
-    color: red;
-    font-size: 1.1rem;
-}
-
-.paginasContainer {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    text-align: center;
-}
-
-.paginasContainer a {
-    text-decoration: none;
-    color: rgb(186, 186, 186);
-    margin: 5px 0;
-    transition: 0.3s;
-}
-
-.sectionRedesSociales{
-    text-align: center;
-}
-
-.sectionRedesSociales a {
-    color: white;
-    font-size: 20px;
-    margin-right: 15px;
-    transition: 1s;
-}
-}
-
-@media (677px < width < 1024px){
-
-    .logoContainer img{
-        width: 150px;
-        height: 90px;
+        height:100vh;
     }
 
-    .headerLinks a {
-        margin: 15px;
+    .logoContainer img{
+        width:120px;
+        height:80px;
+    }
+
+    .headerLinks{
+        position:absolute;
+        top:80px;
+        left:0;
+        width:100%;
+        background:rgba(20,20,20,.95);
+        flex-direction:column;
+        align-items:center;
+        max-height:0;
+        overflow:hidden;
+        transition:.5s;
+    }
+
+    .headerLinks a{
+        margin:20px 0;
+    }
+
+    #menu-toggle:checked ~ .headerLinks{
+        max-height:400px;
+    }
+
+    .hamburguesa{
+        display:block;
+        color:white;
+        font-size:1.8rem;
+        cursor:pointer;
+        margin-right:20px;
+    }
+
+    .imagenFondoDescription {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    .sinopsisContainer p{
+        font-size: 1rem;
     }
 
     .infoContainer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    margin: 40px 5px;
-}
+        flex-direction:column;
+        margin:40px 5px;
+    }
 
-.sectionActores{
-    width: 90%;
-    height: auto;
-}
+    .sectionActores,
+    .sectionCuriosidades{
+        width:100%;
+        height:auto;
+    }
 
-.sectionActoresTitle{
-    margin-top: 30px;
-    margin-bottom: 35px;
-    font-size: 1.8rem;
-}
+    .sectionActoresLink, .sectionCuriosidadesLink{
+        margin-bottom:30px;
+    }
 
-.sectionActoresDescription{
-    margin-bottom: 30px;
-    font-size: 1.1rem;
-}
+    .sectionActoresDescription, .sectionCuriosidadesDescription{
+        padding: 5px;
+        font-size: 1rem;
+    }
 
-.sectionActoresLink{
-    width: 100px;
-    font-size: 1.1rem;
-    display: inline-block;
-    align-items: center;
-    padding: 10px 10px;
-    background-color: red;
-    color: white;
-    text-decoration: none;
-    transition: 1s all;
-    margin-bottom: 30px;
-}
+    .sectionTrailer{
+        flex-direction:column;
+        height: 100vh;
+    }
 
-.sectionCuriosidades{
-    border: 2px solid red;
-    width: 90%;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.842)), url("../assets/img/bannerCardIndex2.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    color: white;
-    text-align: center;
-}
+    .videoContainer{
+        width:90%;
+        margin:20px 10px;
+    }
 
-.sectionCuriosidadesTitle{
-    margin-top: 30px;
-    margin-bottom: 35px;
-    font-size: 1.8rem;
-}
+    .textVideoContainer{
+        width:90%;
+        margin:20px 15px;
+    }
 
-.sectionCuriosidadesDescription{
-    margin-bottom: 30px;
-    font-size: 1.1rem;
-}
+    .textVideoContainer p{
+        font-size: 1rem;
+    }
 
-.sectionCuriosidadesLink{
-    font-size: 1.1rem;
-    align-items: center;
-    text-decoration: none;
-    display: inline-block;
-    width: 100px;
-    padding: 10px 10px;
-    background-color: red;
-    color: white;
-    transition: 1s all;
-}
+    .formSection{
+        margin:50px 5px;
+    }
 
-.sectionTrailer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    background-color: rgb(31, 30, 30);
-    height: 100vh;
-    width: 100%;
-    margin: 20px 0;
-}
+    .formInput{
+        width:80%;
+    }
 
-.videoContainer{
-    width: 90%;
-    height: 90%;
-    margin: 20px 10px;
-}
+    .footerSections{
+        flex-direction:column;
+        gap:40px;
+    }
 
-.textVideoContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    width: 90%;
-    margin: 20px 15px;
-    text-align: center;
-}
+    .sectionInfoContacto h4,
+    .sectionInfoContacto p,
+    .paginasContainer,
+    .sectionRedesSociales{
+        text-align:center;
+    }
 
-.formInput{
-    width: 80%;
-}
-
-.footerSections{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-}
-
-.sectionInfoContacto h4{
-    text-align: center;
-}
-
-.sectionInfoContacto p {
-    margin: 10px 0;
-    font-size: 14px;
-    text-align: center;
-}
-
-.sectionInfoContacto i {
-    margin-right: 10px;
-    color: red;
-    font-size: 1.1rem;
-}
-
-.paginasContainer {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    text-align: center;
-}
-
-.paginasContainer a {
-    text-decoration: none;
-    color: rgb(186, 186, 186);
-    margin: 5px 0;
-    transition: 0.3s;
-}
+    .paginasContainer{
+        gap:10px;
+    }
 }

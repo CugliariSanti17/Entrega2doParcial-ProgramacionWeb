@@ -54,7 +54,8 @@
 
 @media (350px < width < 676px){
 .errorImage {
-    width: 80%;
+    width: 1000px;
+    height: 100%;
     max-width: 80%;
 }
 

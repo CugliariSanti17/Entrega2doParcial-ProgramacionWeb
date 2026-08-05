@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
+/*VISTA ESCRITORIO*/
 * {
     font-family: "Lora", serif;
     margin: 0;
@@ -402,6 +403,7 @@ footer hr {
 
 @media (677px <= width <= 1024px){
 
+    /*HEADER TABLET*/
     .logoContainer img{
         width:150px;
         height:90px;
@@ -411,6 +413,7 @@ footer hr {
         margin:15px;
     }
 
+    /*CONTENIDO MAIN TABLET*/
     .infoContainer{
         flex-direction:column;
         margin:40px 5px;
@@ -445,6 +448,7 @@ footer hr {
         width:80%;
     }
 
+    /*FOOTER MOBILE*/
     .footerSections{
         flex-direction:column;
         gap:40px;
@@ -466,6 +470,7 @@ footer hr {
 
 @media (width <= 676px){
 
+    /*HEADER MOBILE*/
     header{
         height:100vh;
     }
@@ -488,8 +493,9 @@ footer hr {
         transition:.5s;
     }
 
-    .headerLinks a{
+    .headerLinks li{
         margin:20px 0;
+        list-style: none;
     }
 
     #menu-toggle:checked ~ .headerLinks{
@@ -510,6 +516,7 @@ footer hr {
         margin-bottom: 50px;
     }
 
+    /*CONTENIDO MAIN MOBILE*/
     .sinopsisContainer p{
         font-size: 1rem;
     }
@@ -561,6 +568,7 @@ footer hr {
         width:80%;
     }
 
+    /*FOOTER MOBILE*/
     .footerSections{
         flex-direction:column;
         gap:40px;

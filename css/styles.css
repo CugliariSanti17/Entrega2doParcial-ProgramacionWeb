@@ -301,8 +301,7 @@ header {
 }
 
 .formInput:focus {
-    outline: none;
-    border-color: red;
+    outline: red;
     box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
 }
 
